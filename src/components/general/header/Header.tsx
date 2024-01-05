@@ -46,10 +46,11 @@ const Container = styled.div`
 	width: 100%;
 	padding: 20px 5%;
 	background: rgb(0, 0, 0);
-	background: linear-gradient(180deg, #000000c6 0%, rgba(0, 0, 0, 0) 100%);
+	background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	z-index: 99999;
 `;
 const LeftSection = styled.div``;
 const Logo = styled(Link)`
